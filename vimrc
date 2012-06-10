@@ -9,9 +9,17 @@ filetype plugin indent on           " load file type plugins + indentation
 
 "" Whitespace
 set nowrap                          " don't wrap lines
-set tabstop=4 shiftwidth=4          " a tab is two spaces (or set this to 4)
+set tabstop=4 shiftwidth=2          " a tab is two spaces (or set this to 4)
 set expandtab                       " use spaces, not tabs (optional)
+set shiftround
 set backspace=indent,eol,start      " backspace through everything in insert mode
+set autoindent                    " keeps previous lines indent
+set smartindent                   " insert tabs on the start of a line according to shiftwidth, not tabstop
+set copyindent                    " copy the previous indentation on autoindenting
+set preserveindent
+set cursorline
+set number
+set ruler
 
 "" Searching
 set hlsearch                        " highlight matches
@@ -25,6 +33,11 @@ nmap <F2> :NERDTreeToggle<CR>       " mapping f2 to NERDTreeToggle
 noremap <F5> :GundoToggle<CR>       " mapping f5 to Gundo
 noremap <F9> :Gcommit<CR>           " mapping f9 to Gcommit
 inoremap jj <Esc>                   "<Esc> to jj
+nnoremap <silent> <Space> :silent noh<Bar>echo<CR>
+set pastetoggle=<F2>
+set cm=blowfish
+syntax on
+filetype plugin indent on
 
 "" Mapping 
 let mapleader = ","                 " setting leader to , 
