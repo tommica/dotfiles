@@ -26,6 +26,9 @@ noremap <F5> :GundoToggle<CR>       " mapping f5 to Gundo
 noremap <F9> :Gcommit<CR>           " mapping f9 to Gcommit
 inoremap jj <Esc>                   "<Esc> to jj
 
+"" Mapping 
+let mapleader = ","                 " setting leader to , 
+
 "" Color Scheme
 colorscheme tomorrow_night          " Tomorrow Theme
 
