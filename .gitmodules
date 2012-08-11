@@ -43,3 +43,6 @@
 [submodule "vim/bundle/snipmate-snippets"]
 	path = vim/bundle/snipmate-snippets
 	url = https://github.com/honza/snipmate-snippets.git
+[submodule "vim/bundle/snippets-php"]
+	path = vim/bundle/snippets-php
+	url = https://github.com/tommica/snippets-php.git
