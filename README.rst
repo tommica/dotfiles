@@ -1,4 +1,4 @@
-Tommis's Dot Files
+Tommi's Dot Files
 =======================
 
 These are my configs and setup a system the way I like it.
