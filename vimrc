@@ -36,7 +36,6 @@ noremap <F9> :Gcommit<CR>           " mapping f9 to Gcommit
 inoremap jj <Esc>                   "<Esc> to jj
 nnoremap <silent> <Space> :silent noh<Bar>echo<CR>
 set pastetoggle=<F2>
-set cm=blowfish
 syntax on
 filetype plugin indent on
 
