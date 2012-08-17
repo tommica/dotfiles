@@ -23,7 +23,8 @@ ln -s ~/Github/dotfiles/gitignore ~/.gitignore
 ln -s ~/Github/dotfiles/tmux ~/.tmux.conf
 
 echo "Updating submodules"
-git submodule foreach git pull origin master --recurse-submodules
+git submodule update --recursive
+#git submodule foreach git pull origin master --recurse-submodules
 
 echo "All done."
 
