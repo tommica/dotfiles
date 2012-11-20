@@ -33,6 +33,10 @@ nmap <F8> :TagbarToggle<CR>         " mapping f8 to TagbarToggle
 nmap <F2> :NERDTreeToggle<CR>       " mapping f2 to NERDTreeToggle
 noremap <F5> :GundoToggle<CR>       " mapping f5 to Gundo
 noremap <F9> :Gcommit<CR>           " mapping f9 to Gcommit
+noremap ; l
+noremap l k
+noremap k j
+noremap j h
 inoremap jj <Esc>                   "<Esc> to jj
 nnoremap <silent> <Space> :silent noh<Bar>echo<CR>
 set pastetoggle=<F2>
