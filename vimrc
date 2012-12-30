@@ -222,7 +222,7 @@ autocmd BufReadPost *
      \   exe "normal! g`\"" |
      \ endif
 " Remember info about open buffers on close
-set viminfo^=%
+" set viminfo^=%
 
 """"""""""""""""""""""""""""""
 " => Status line
@@ -335,6 +335,7 @@ nnoremap <silent> <Space> :silent noh<Bar>echo<CR>
 " adding pathogen to vimrc
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
+call pathogen#infect()
 
 function! CmdLine(str)
     exe "menu Foo.Bar :" . a:str

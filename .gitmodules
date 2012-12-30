@@ -40,3 +40,6 @@
 [submodule "vim/bundle/snippets-log"]
 	path = vim/bundle/snippets-log
 	url = https://github.com/tommica/snippets-log.git
+[submodule "vim/bundle/surround"]
+	path = vim/bundle/surround
+	url = https://github.com/tpope/vim-surround.git
