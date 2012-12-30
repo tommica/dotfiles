@@ -392,3 +392,6 @@ function! <SID>BufcloseCloseIt()
      execute("bdelete! ".l:currentBufNum)
    endif
 endfunction
+
+" Disable folding
+setlocal nofoldenable
