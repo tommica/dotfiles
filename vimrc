@@ -110,7 +110,9 @@ set tm=500
 " Enable syntax highlighting
 syntax enable
 
-colorscheme tomorrow_night          " Tomorrow Theme
+colorscheme tomorrow_night
+" Popup Colors
+highlight Normal ctermbg=darkblue
 set background=dark
 
 " Set extra options when running in GUI mode
@@ -126,6 +128,7 @@ set encoding=utf8
 
 " Use Unix as the standard file type
 set ffs=unix,dos,mac
+
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
