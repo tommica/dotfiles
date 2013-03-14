@@ -103,6 +103,12 @@ set novisualbell
 set t_vb=
 set tm=500
 
+" Mouse control
+set mouse=a
+
+" Underline current line
+:set cursorline
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
