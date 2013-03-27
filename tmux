@@ -12,3 +12,5 @@ set -g status-right '#[fg=yellow]#(cut -d " " -f 1-3 /proc/loadavg)#[default] #[
  
 # set correct term
 # set -g default-terminal screen-256color
+#
+set-option -g default-shell /bin/zsh
