@@ -43,6 +43,3 @@
 [submodule "vim/bundle/vim-autoclose"]
 	path = vim/bundle/vim-autoclose
 	url = https://github.com/Townk/vim-autoclose.git
-[submodule "vim/bundle/PIV"]
-	path = vim/bundle/PIV
-	url = https://github.com/spf13/PIV.git
