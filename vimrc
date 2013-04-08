@@ -37,6 +37,9 @@ set history=700
 filetype plugin on
 filetype indent on
 
+" Set encoding
+set encoding=utf-8
+
 " Not compatible with legacy vi
 set nocompatible
 " display incomplete commands
