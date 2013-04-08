@@ -110,7 +110,7 @@ set tm=500
 set mouse=a
 
 " Underline current line
-:set cursorline
+set cursorline
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -120,6 +120,7 @@ set mouse=a
 syntax enable
 
 colorscheme tomorrow_night
+
 " Popup Colors
 highlight Normal ctermbg=darkblue
 set background=dark
@@ -130,6 +131,7 @@ if has("gui_running")
     set guioptions+=e
     set t_Co=256
     set guitablabel=%M\ %t
+    colorscheme solarized
 endif
 
 " Set utf8 as standard encoding and en_US as the standard language
@@ -331,16 +333,24 @@ map <leader>s? z=
 " Remove the Windows ^M - when the encodings gets messed up
 noremap <Leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
 
-" Quickly open a buffer for scripbble
-map <leader>q :e ~/buffer<cr>
+" Set copy-paste register
+if has ('x') && has ('gui') " On Linux use + register for copy-paste
+  set clipboard=unnamedplus
+elseif has ('gui')          " On mac and Windows, use * register for copy-paste
+  set clipboard=unnamed
+endif
 
-" Toggle paste mode on and off
-map <leader>pp :setlocal paste!<cr>
+" Copy
+map <leader>cc :w !xsel -i -b<CR>
+map <leader>cp :w !xsel -i -p<CR>
+map <leader>cs :w !xsel -i -s<CR>
 
 
 "Clear
 nnoremap <silent> <Space> :silent noh<Bar>echo<CR>
 
+" Allow for cursor beyond last character
+set virtualedit=onemore
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
