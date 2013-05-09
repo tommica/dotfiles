@@ -7,7 +7,7 @@
 let s:foreground = "c5c8c6"
 let s:background = "1d1f21"
 let s:selection = "373b41"
-let s:line = "282a2e"
+let s:line = "000000"
 let s:comment = "969896"
 let s:red = "cc6666"
 let s:orange = "de935f"
@@ -20,7 +20,7 @@ let s:window = "4d5057"
 
 " Console 256 Colours
 if !has("gui_running")
-	let s:background = "303030"
+"	let s:background = "303030"
 	let s:window = "5e5e5e"
 	let s:line = "3a3a3a"
 	let s:selection = "585858"

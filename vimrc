@@ -121,10 +121,6 @@ syntax enable
 
 colorscheme tomorrow_night
 
-" Popup Colors
-highlight Normal ctermbg=darkblue
-set background=dark
-
 " Set extra options when running in GUI mode
 if has("gui_running")
     set guioptions-=T
