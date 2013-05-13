@@ -119,7 +119,7 @@ set cursorline
 " Enable syntax highlighting
 syntax enable
 
-colorscheme tomorrow_night
+colorscheme blackboard
 
 " Set extra options when running in GUI mode
 if has("gui_running")
