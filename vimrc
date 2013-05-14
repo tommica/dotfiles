@@ -310,6 +310,17 @@ nmap <F2> :NERDTreeToggle<CR>
 nnoremap <leader>u :UndotreeToggle<CR>
 inoremap jj <Esc>
 
+function! s:toggle_neocomplcache() "{{{
+	if !exists(':NeoComplCacheDisable')
+	  NeoComplCacheEnable
+	  echo 'neocomplcache enabled.'
+	else
+	  NeoComplCacheDisable
+	  echo 'neocomplcache disabled.'
+	endif
+endfunction "}}}
+nmap <F3> :<C-u>call <SID>toggle_neocomplcache()<CR>
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Spell checking
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
