@@ -34,12 +34,6 @@
 [submodule "vim/bundle/undotree"]
 	path = vim/bundle/undotree
 	url = https://github.com/vim-scripts/undotree.vim.git
-[submodule "vim/bundle/neocomplcache"]
-	path = vim/bundle/neocomplcache
-	url = https://github.com/Shougo/neocomplcache.git
-[submodule "vim/bundle/vim-autoclose"]
-	path = vim/bundle/vim-autoclose
-	url = https://github.com/Townk/vim-autoclose.git
 [submodule "vim/bundle/vim-colors-solarized"]
 	path = vim/bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
