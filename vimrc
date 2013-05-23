@@ -416,5 +416,8 @@ function! <SID>BufcloseCloseIt()
    endif
 endfunction
 
+" Compile LessCSS on save
+autocmd BufWritePost,FileWritePost *.less :silent !lessc <afile> <afile>:p:r.css
+
 " Disable folding
 setlocal nofoldenable
