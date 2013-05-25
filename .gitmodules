@@ -40,6 +40,3 @@
 [submodule "vim/bundle/minibufexpl"]
 	path = vim/bundle/minibufexpl
 	url = https://github.com/fholgado/minibufexpl.vim.git
-[submodule "extra/tmux-powerline"]
-	path = extra/tmux-powerline
-	url = git://github.com/erikw/tmux-powerline.git

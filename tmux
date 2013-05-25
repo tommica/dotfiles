@@ -42,16 +42,3 @@ set-option -g display-panes-colour colour166 #orange
 
 # clock
 set-window-option -g clock-mode-colour colour64 #green
-
-
-
-
-
-set-option -g status on
-set-option -g status-interval 2
-set-option -g status-utf8 on
-set-option -g status-justify "centre"
-set-option -g status-left-length 60
-set-option -g status-right-length 90
-set-option -g status-left "#(~/Github/dotfiles/extra/tmux-powerline/powerline.sh left)"
-set-option -g status-right "#(~/Github/dotfiles/extra/tmux-powerline/powerline.sh right)"
