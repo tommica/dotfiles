@@ -48,7 +48,8 @@ function server() {
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/users/tommicarleman/bin
+export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/users/tommicarleman/bin:/home/users/tommicarleman/.gem/ruby/1.8/bin
+
 
 # Enable node/npm
 if [[ -a  ~/.nvm/nvm.sh ]];then
