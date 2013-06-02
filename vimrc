@@ -348,8 +348,10 @@ nnoremap <silent> <Space> :silent noh<Bar>echo<CR>
 " Allow for cursor beyond last character
 set virtualedit=onemore
 
-" .less files to have .css syntax
+" .less, .sass, .scss files to have .css syntax
 au BufRead,BufNewFile *.less setfiletype css
+au BufRead,BufNewFile *.scss setfiletype css
+au BufRead,BufNewFile *.sass setfiletype css
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper functions
