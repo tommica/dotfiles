@@ -119,7 +119,8 @@ set cursorline
 " Enable syntax highlighting
 syntax enable
 
-colorscheme blackboard
+set bg=dark
+colorscheme wombat
 
 " Set extra options when running in GUI mode
 if has("gui_running")
