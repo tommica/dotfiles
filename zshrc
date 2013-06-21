@@ -35,9 +35,7 @@ COMPLETION_WAITING_DOTS="true"
 plugins=(nvm-zsh git)
 
 # Some custom aliases & functions
-alias k='ssh tommicarleman@kapsi.fi'
-alias ssha='ssh-add ~/.ssh/work && ssh-add ~/.ssh/github-home'
-alias d='ssh tommica'
+alias l='ls -lah'
 function server() {
   local port="${1:-8000}"
   xdg-open "http://localhost:${port}/"

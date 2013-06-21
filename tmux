@@ -6,10 +6,9 @@ set -g status-bg black
 set -g status-fg white
  
 # set correct term
-# set -g default-terminal screen-256color
-#
 set-option -g default-shell /bin/zsh
 set -g default-terminal "screen-256color"
+
 
 #### COLOUR (Solarized 256)
 

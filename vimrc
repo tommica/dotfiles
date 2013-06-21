@@ -120,7 +120,7 @@ set cursorline
 syntax enable
 
 set bg=dark
-colorscheme wombat
+colorscheme solarized
 
 " Set extra options when running in GUI mode
 if has("gui_running")

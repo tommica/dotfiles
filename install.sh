@@ -11,6 +11,7 @@ rm ~/.gvimrc
 rm ~/.gitconfig
 rm ~/.gitignore
 rm ~/.tmux.conf
+rm ~/.dir_colors
 rm ~/.zshrc
 
 echo "Symlinking files"
@@ -20,6 +21,7 @@ ln -s ~/Github/dotfiles/gvimrc ~/.gvimrc
 ln -s ~/Github/dotfiles/gitconfig ~/.gitconfig
 ln -s ~/Github/dotfiles/gitignore ~/.gitignore
 ln -s ~/Github/dotfiles/tmux ~/.tmux.conf
+ln -s ~/Github/dotfiles/dircolors.256dark ~/.dir_colors
 ln -s ~/Github/dotfiles/zshrc ~/.zshrc
 
 echo "Updating submodules"
