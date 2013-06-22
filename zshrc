@@ -42,6 +42,10 @@ function server() {
   python -m SimpleHTTPServer "$port"
 }
 
+function pz() {
+  zip -r $1 $2 -x \*_unittest\* \*node_modules\* \*.git\* \*gruntfile.js\* \*package.json\* \*README.md\*
+}
+
 
 source $ZSH/oh-my-zsh.sh
 
