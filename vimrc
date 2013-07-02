@@ -119,9 +119,8 @@ set cursorline
 " Enable syntax highlighting
 syntax enable
 
-let g:solarized_termcolors=256
 set bg=dark
-colorscheme solarized
+colorscheme tomorrow_night
 
 " Set extra options when running in GUI mode
 if has("gui_running")
