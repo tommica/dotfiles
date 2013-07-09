@@ -120,7 +120,7 @@ set cursorline
 syntax enable
 
 set bg=dark
-colorscheme tomorrow_night
+colorscheme vibrantink
 
 " Set extra options when running in GUI mode
 if has("gui_running")
